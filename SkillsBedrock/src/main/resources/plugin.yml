@@ -1,0 +1,10 @@
+name: SkillsBedrock
+version: 1.0.0
+main: br.huntersgames.skillsbedrock.SkillsBedrock
+api-version: '1.21'
+depend: [floodgate]
+description: Menu de skills em formulario para jogadores Bedrock (Floodgate)
+commands:
+  skillformopen:
+    description: Uso interno do skills.sk (so console)
+    usage: /skillformopen <uuid> <dados>
